@@ -1,11 +1,12 @@
 <script setup>
-import { RouterLink,RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
+import Button from './Button.vue'
 </script>
 
 <template>
   <div>
-    <router-link to="/tasks" >タスク一覧</router-link>
-    <router-link to="/tasks/create">タスク追加</router-link>
+    <Button link="/tasks" name="タスク一覧" class="mr-5"/>
+    <Button link="/tasks/create" name="タスク追加"/>
     <RouterView/>
   </div>
 </template>
