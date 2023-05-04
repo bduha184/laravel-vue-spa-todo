@@ -1,5 +1,6 @@
 FROM php:8.2-fpm
 
+
 ENV TZ=Asia/Tokyo \
     LANG=c.UTF-8 \
     LANGUAGE=ja_JP:ja \
